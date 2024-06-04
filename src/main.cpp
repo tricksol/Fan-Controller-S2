@@ -13,7 +13,7 @@ const int betaCoefficient = 3950; // Beta coefficient of the thermistor
 const int adcMax = 4095; // Maximum ADC value (12-bit ADC for ESP32)
 
 const float relayOnTemperatureF = 195.0; // Relay ON temperature in Fahrenheit
-const float relayOffTemperatureF = 175.0; // Relay OFF temperature in Fahrenheit
+const float relayOffTemperatureF = 190.0; // Relay OFF temperature in Fahrenheit
 const float vcc = 5.0; // Supply voltage (5V)
 
 // Adjustment factor for temperature offset (add 10°F)
